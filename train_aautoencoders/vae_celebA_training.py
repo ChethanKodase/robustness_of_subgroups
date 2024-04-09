@@ -15,19 +15,21 @@ device = ("cuda:1" if torch.cuda.is_available() else "cpu") # Use GPU or CPU for
 
 
 
-root = '/home/luser/autoencoder_attacks/train_aautoencoders/data_faces/img_align_celeba'
-img_list = os.listdir(root)
-print(len(img_list))
+#root = '/home/luser/autoencoder_attacks/train_aautoencoders/data_faces/img_align_celeba'
+#img_list = os.listdir(root)
+#print(len(img_list))
      
 
 
-df = pd.read_csv("/home/luser/autoencoder_attacks/train_aautoencoders/list_attr_celeba.csv")
-df = df[['image_id', 'Smiling']]
+#df = pd.read_csv("/home/luser/autoencoder_attacks/train_aautoencoders/list_attr_celeba.csv")
+#df = df[['image_id', 'Smiling']]
 
 
 
-img_list = os.listdir('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1/smile/')
-img_list.extend(os.listdir('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1/no_smile/'))
+'''img_list = os.listdir('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1/smile/')
+img_list.extend(os.listdir('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1/no_smile/'))'''
+
+img_list = os.listdir('./data_faces/image_directory/')
 
 
 transform = transforms.Compose([
@@ -36,7 +38,10 @@ transform = transforms.Compose([
           ])
 
 batch_size = 64
-celeba_data = datasets.ImageFolder('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1', transform=transform)
+
+#celeba_data = datasets.ImageFolder('/home/luser/autoencoder_attacks/train_aautoencoders/data_cel1', transform=transform)
+
+celeba_data = datasets.ImageFolder('./data_faces', transform=transform)
 
 
 
@@ -101,4 +106,4 @@ for epoch in range(epochs):
     print("Epoch : ", epoch)
 
 
-    #torch.save(model.state_dict(), '/home/luser/autoencoder_attacks/saved_celebA/checkpoints/celebA_CNN_VAE'+str(beta_value)+'_big_trainSize'+str(train_data_size)+'_epochs'+str(epoch)+'.torch')
+    torch.save(model.state_dict(), './train_aautoencoders/saved_model/checkpoints/celebA_CNN_VAE'+str(beta_value)+'_big_trainSize'+str(train_data_size)+'_epochs'+str(epoch)+'.torch')
