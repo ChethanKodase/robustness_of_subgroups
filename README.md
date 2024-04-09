@@ -1,4 +1,4 @@
-# robustness_of_subgroups
+# Robustness of subgroups
 Evaluating Adversarial Robustness of Variational Autoencoders across intersectional subgroups
 
 This repository contains code and material for the article "Evaluating Adversarial Robustness of Variational Autoencoders across intersectional subgroups"
@@ -15,3 +15,8 @@ This repository contains code and material for the article "Evaluating Adversari
 
 * cd into the home directory and run `python train_aautoencoders/vae_celebA_training.py` 
 * The model can be accesses from the directory `./train_aautoencoders/saved_model/checkpoints` after trainig.
+
+## Generating data subgroups
+* Use the jupyter notebook `celebA_grouping` to group the dataset into `Young`, `Old`, `Men`, `Women`, `Young men`, `Young women`, `Old men` and `Old women`.
+
+## Generating maximum damage attack to evaluate adversarial robustness
