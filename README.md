@@ -28,7 +28,6 @@ where `feature_no` represents the index of the group in the list `all_features =
 from which you want to sample an image to attack and `sample_no` indicates the index of the sample to be selected from each group which consisted of 60 samples as mentioned in the paper. Assign value to `which_gpu` based on the gpu you want to use for the optimization. 
 
 
+![plot](./qualitative_beta1.png)
 
-
-![Inputs and reconstructions for normal and perturbed samples from the groups `young men` (columns 1 & 2), `young women` (columns 3 & 4), `old men` (columns 5 & 6),  and `old women` (columns 7 & 8) for Vanilla-VAE with $\beta=1.0$](./qualitative_beta1.png)
-
+Inputs and reconstructions for normal and perturbed samples from the groups `young men` (columns 1 & 2), `young women` (columns 3 & 4), `old men` (columns 5 & 6),  and `old women` (columns 7 & 8) for Vanilla-VAE with $\beta=1.0$
