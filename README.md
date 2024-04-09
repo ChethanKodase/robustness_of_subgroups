@@ -26,3 +26,6 @@ Perturbations for maximum damage attack on individual samples can be generated b
 
 where `feature_no` represents the index of the group in the list `all_features = [ "men", "women", "young", "old", "youngmen", "oldmen", "youngwomen", "oldwomen"]`
 from which you want to sample an image to attack and `sample_no` indicates the index of the sample to be selected from each group which consisted of 60 samples as mentioned in the paper. Assign value to `which_gpu` based on the gpu you want to use for the optimization. 
+
+
+![plot](/home/luser/robustness_of_subgroups/qualitative_beta1.png)
