@@ -30,4 +30,5 @@ from which you want to sample an image to attack and `sample_no` indicates the i
 
 ![plot](./qualitative_beta1.png)
 
-Inputs and reconstructions for normal and perturbed samples from the groups `young men` (columns 1 & 2), `young women` (columns 3 & 4), `old men` (columns 5 & 6),  and `old women` (columns 7 & 8) for Vanilla-VAE with $\beta=1.0$
+![Inputs and reconstructions for normal and perturbed samples from the groups `young men` (columns 1 & 2), `young women` (columns 3 & 4), `old men` (columns 5 & 6),  and `old women` (columns 7 & 8) for Vanilla-VAE with $\beta=1.0$](./qualitative_beta1.png)
+
