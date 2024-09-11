@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 '''
 
-cd /home/luser/autoencoder_attacks/train_aautoencoders/
+cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 40 --which_gpu 0
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 41 --which_gpu 0
@@ -21,7 +21,7 @@ python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 42 --which_gpu 0
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 43 --which_gpu 0
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 44 --which_gpu 0
 
-cd /home/luser/autoencoder_attacks/train_aautoencoders/
+cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 45 --which_gpu 0
 python attck_L_inf_bounded_beta5.py --feature_no 12 --segment 46 --which_gpu 0

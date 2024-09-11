@@ -13,107 +13,103 @@ import matplotlib.pyplot as plt
 
 cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 0 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 1 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 2 --which_gpu 0 --beta_value 4.0 
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 3 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 4 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 5 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 6 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 7 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 8 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 9 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 10 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 11 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 12 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 13 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 14 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 15 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 16 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 17 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 18 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 19 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 20 --which_gpu 0 --beta_value 4.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 41 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 42 --which_gpu 0 --beta_value 10.0 
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 43 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 44 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 45 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 46 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 47 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 48 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 49 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 50 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 51 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 52 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 53 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 54 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 55 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 56 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 57 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 58 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 59 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 12 --segment 60 --which_gpu 0 --beta_value 10.0
 
 ######################################################################################################################################
 
 
 cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 0 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 1 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 2 --which_gpu 0 --beta_value 4.0 
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 3 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 4 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 5 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 6 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 7 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 8 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 9 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 10 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 11 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 12 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 13 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 14 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 15 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 16 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 17 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 18 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 19 --which_gpu 0 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 20 --which_gpu 0 --beta_value 4.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 41 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 42 --which_gpu 0 --beta_value 10.0 
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 43 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 44 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 45 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 46 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 47 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 48 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 49 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 50 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 51 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 52 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 53 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 54 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 55 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 56 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 57 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 58 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 59 --which_gpu 0 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 13 --segment 60 --which_gpu 0 --beta_value 10.0
 
 ######################################################################################################################################
 
 cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 0 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 1 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 2 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 3 --which_gpu 1 --beta_value 4.0 
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 4 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 5 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 6 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 7 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 8 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 9 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 10 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 11 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 12 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 13 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 14 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 15 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 16 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 17 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 18 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 19 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 20 --which_gpu 1 --beta_value 4.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 41 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 42 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 43 --which_gpu 1 --beta_value 10.0 
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 44 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 45 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 46 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 47 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 48 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 49 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 50 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 51 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 52 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 53 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 54 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 55 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 56 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 57 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 58 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 59 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 14 --segment 60 --which_gpu 1 --beta_value 10.0
 
 ######################################################################################################################################
 
 
 cd /home/luser/robustness_of_subgroups/train_aautoencoders
 conda activate inn
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 0 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 1 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 2 --which_gpu 1 --beta_value 4.0 
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 3 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 4 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 5 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 6 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 7 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 8 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 9 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 10 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 11 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 12 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 13 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 14 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 15 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 16 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 17 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 18 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 19 --which_gpu 1 --beta_value 4.0
-python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 20 --which_gpu 1 --beta_value 4.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 41 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 42 --which_gpu 1 --beta_value 10.0 
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 43 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 44 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 45 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 46 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 47 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 48 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 49 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 50 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 51 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 52 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 53 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 54 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 55 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 56 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 57 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 58 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 59 --which_gpu 1 --beta_value 10.0
+python attck_L_inf_bounded_tcvae.py --feature_no 15 --segment 60 --which_gpu 1 --beta_value 10.0
 
 
 '''
@@ -136,7 +132,8 @@ which_gpu = args.which_gpu
 tc_vae_beta = args.beta_value
 
 device = ("cuda:"+str(which_gpu)+"" if torch.cuda.is_available() else "cpu") # Use GPU or CPU for training
-
+print()
+print("device", device)
 from vae import VAE_big
 
 model = VAE_big(device, image_channels=3).to(device)
@@ -254,7 +251,7 @@ for step in range(num_steps):
         convergence_value = ((prev_loss - total_loss.item())**2)**(0.5)
         print(f"Step {step}, Loss: {total_loss.item()}, distortion L-2: {l2_distortion}, distortion L-inf: {l_inf_distortion}")
         prev_loss = total_loss.item()
-        with torch.no_grad():
+        '''with torch.no_grad():
             fig, ax = plt.subplots(1, 3, figsize=(10, 10))
             ax[0].imshow(normalized_attacked[0].permute(1, 2, 0).cpu().numpy())
             ax[0].set_title('Attacked Image')
@@ -268,9 +265,9 @@ for step in range(num_steps):
             ax[2].set_title('Attack reconstruction')
             ax[2].axis('off')
             plt.show()
-            plt.savefig("/home/luser/autoencoder_attacks/train_aautoencoders/fairness_trials/attack_saves/"+str(select_feature)+"_d/tcvae_step"+str(step)+"attack_"+str(desired_norm_l_inf)+"segment"+str(segment)+".png")
+            plt.savefig("/home/luser/autoencoder_attacks/train_aautoencoders/fairness_trials/attack_saves/"+str(select_feature)+"_d/tcvae_step"+str(step)+"attack_"+str(desired_norm_l_inf)+"segment"+str(segment)+".png")'''
 
         optimized_noise = scaled_noise
         torch.save(optimized_noise, "/home/luser/autoencoder_attacks/train_aautoencoders/fairness_trials/attack_saves/"+str(select_feature)+"_d/tcvae_"+str(select_feature)+"beta"+str(tc_vae_beta)+"_scaled_noise_"+str(desired_norm_l_inf)+"segment"+str(segment)+".pt")
-        print("Did it save ? ")
-        print("where", )
+        #print("Did it save ? ")
+        #print("where", )
