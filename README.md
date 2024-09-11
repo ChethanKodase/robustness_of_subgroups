@@ -1,5 +1,4 @@
 # Robustness of subgroups
-This code is part of the paper Evaluating Adversarial Robustness of Variational Autoencoders across intersectional subgroups
 
 This repository contains code and material for the article [Evaluating Adversarial Robustness of Variational Autoencoders across intersectional subgroups](https://arxiv.org/abs/2407.03864v1)
 
